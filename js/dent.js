@@ -28,10 +28,14 @@ $(function() {
 
     ga('create', 'UA-57899954-1', 'auto');
     ga('send', 'pageview');
-
+    
     $('a').on('click', function() {
         var href = $(this).attr('href');
-        ga('send', 'event', 'button', 'click', href);
+        if (!href && href.indexOf("#")) {
+            href = href.substring(1);
+        }
+         
+        ga('send', 'pageview', href);
     });
     
 });
