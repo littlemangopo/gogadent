@@ -1,3 +1,13 @@
 #map-canvas {
     height: 400px;
 }
+
+table#pricesTable th {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+table#pricesTable {
+    border: 1px solid black;
+}
