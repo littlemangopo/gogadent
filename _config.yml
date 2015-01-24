@@ -5,9 +5,17 @@ color:
     secondary: 18BC9C
     
 team:
+    office:
+        fb: http://facebook.com/IQDent
+        gplus: http://plus.google.com/IQDent
+        twitter: 
+        tel: 
+            
     one: 
         name: Dr. Irina Alexandru
-        tel: 
+        tel: 0766 748 971
+        fb:
     two: 
         name: Dr. Bogdan Calenic
-        tel:
+        tel: 0755 044 047
+        fb:
