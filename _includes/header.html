@@ -4,11 +4,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    {% if page.isMain %}
+                        <img class="img-responsive" src="img/profile.png" alt="">
+                    {% endif %}
                     <div class="intro-text">
-                        <span class="name">Cabinet Stomatologic GogaDent</span>
+                        <span class="name">Cabinet Stomatologic IQDent</span>
                         <hr class="star-light">
-                        <span class="skills">Dr. Iarina Bulina - Dr. Zohan Ardan</span>
+                        <span class="skills">{{site.contact.one.name}} - {{site.contact.two.name}}</span>
                     </div>
                 </div>
             </div>
