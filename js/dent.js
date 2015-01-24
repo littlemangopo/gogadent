@@ -1,10 +1,10 @@
 $(function() {
     var initialize = function() {
-        var myLatlng = new google.maps.LatLng(44.424440, 26.119975);
+        var myLatlng = new google.maps.LatLng(44.424100, 26.120148);
         var mapCanvas = document.getElementById('map-canvas');
         var mapOptions = {
           center: myLatlng,
-          zoom: 15,
+          zoom: 17,
           scrollwheel: false,
           draggable : false,
           mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -14,7 +14,7 @@ $(function() {
         var marker = new google.maps.Marker({
           position: myLatlng,
           map: map,
-          title: 'Cabinet Stomatologic GogaDent'
+          title: 'Cabinet Stomatologic IQDent'
         });
     };
     google.maps.event.addDomListener(window, 'load', initialize);
