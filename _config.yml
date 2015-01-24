@@ -3,3 +3,11 @@ name: IQDent
 color:
     primary: 2C3E50
     secondary: 18BC9C
+    
+team:
+    one: 
+        name: Dr. Irina Alexandru
+        tel: 
+    two: 
+        name: Dr. Bogdan Calenic
+        tel:
