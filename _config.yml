@@ -1,1 +1,6 @@
 name: IQDent
+
+color:
+    primary: #2C3E50;
+    success: #18BC9C;
+    secondary: #233140;
