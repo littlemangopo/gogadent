@@ -10,7 +10,13 @@
                     <div class="intro-text">
                         <span class="name">Cabinet Stomatologic {{site.name}}</span>
                         <hr class="star-light">
-                        <span class="skills">{{site.contact.one.name}} - {{site.contact.two.name}}</span>
+                        {% if page.contact == 'one' %}
+                            <span class="skills">{{site.contact.one.name}} - {{site.contact.one.tel}}</span>
+                        {% elsif page.contact == 'two' %}
+                            <span class="skills">{{site.contact.two.name}} - {{site.contact.two.tel}}</span>
+                        {% else %}
+                            <span class="skills">{{site.contact.one.name}} - {{site.contact.two.name}}</span>
+                        {% endif %}
                     </div>
                 </div>
             </div>
