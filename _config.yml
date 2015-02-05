@@ -21,3 +21,7 @@ contact:
         tel: 0755 044 047
         img: img/team/2.jpg
         fb:
+
+
+gems:
+  - jekyll-sitemap
