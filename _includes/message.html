@@ -13,7 +13,14 @@
                     <p>Ne puteți lăsa un mesaj sau o întrebare:</p>
                     <br/>
                     
-                    <div class="fb-comments" data-href="http://www.iqdent.ro/mesaje.html" data-numposts="5" data-colorscheme="light"></div>
+                  
+                    
+                     {% if page.contact == 'one' %}
+                            <div class="fb-comments" data-href="http://www.iqdent.ro/irina-mesaje.html" data-numposts="5" data-colorscheme="light"></div>   
+                   
+                    {% else %}
+                            <div class="fb-comments" data-href="http://www.iqdent.ro/mesaje.html" data-numposts="5" data-colorscheme="light"></div>                        
+                    {% endif %}
 
                 </div>
                

@@ -15,8 +15,16 @@
                         <p></p>
                         <h3>Telefon</h3>
                         <p>{{site.contact.office.tel}}</p>
-                        <p>{{site.contact.one.name}} - {{site.contact.one.tel}}</p>
-                        <p>{{site.contact.two.name}} - {{site.contact.two.tel}}</p>
+                    
+                        {% if page.contact == 'one' %}
+                                <p>{{site.contact.one.name}} - {{site.contact.one.tel}}</p>
+                        {% elsif page.contact == 'two' %}
+                                <p>{{site.contact.two.name}} - {{site.contact.two.tel}}</p>
+                        {% else %}
+                                <p>{{site.contact.one.name}} - {{site.contact.one.tel}}</p>
+                                <p>{{site.contact.two.name}} - {{site.contact.two.tel}}</p>
+                        {% endif %}
+                      
 
                         <h3>Transport</h3>
                         
