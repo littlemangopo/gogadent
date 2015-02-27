@@ -13,11 +13,13 @@ contact:
             
     one: 
         name: Dr. Irina Alexandru
+        prefix: irina-
         tel: 0766 748 971
         img: img/team/1.jpg
         fb: https://www.facebook.com/dririnaalexandru
     two: 
         name: Dr. Bogdan Calenic
+        prefix: bogdan-
         tel: 0755 044 047
         img: img/team/2.jpg
         fb:
