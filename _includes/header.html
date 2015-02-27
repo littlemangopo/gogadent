@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    {% if page.isMain %}
+                    {% if page.showLogo %}
                         <img class="img-responsive" src="img/profile.png" alt="">
                     {% endif %}
                     <div class="intro-text">
@@ -13,11 +13,13 @@
                         {% if page.contact == 'one' %}
                             <img src="{{site.contact.one.img}}" class="img-responsive img-circle" alt="">
 
-                            <span class="skills">{{site.contact.one.name}} - {{site.contact.one.tel}}</span>
+                            <p class="skills">{{site.contact.one.name}}</p> 
+                            <p class="skills">Telefon: {{site.contact.one.tel}}</p>                        
                         {% elsif page.contact == 'two' %}
                             <img src="{{site.contact.two.img}}" class="img-responsive img-circle" alt="">
 
-                            <span class="skills">{{site.contact.two.name}} - {{site.contact.two.tel}}</span>
+                            <p class="skills">{{site.contact.two.name}}</p> 
+                            <p class="skills">Telefon: {{site.contact.two.tel}}</p>
                         {% else %}
                             <span class="skills">{{site.contact.one.name}} - {{site.contact.two.name}}</span>
                         {% endif %}
