@@ -8,3 +8,7 @@ table#pricesTable th {
     padding-bottom: 10px;
 }
 
+table#pricesTable del {
+    color: red;
+    margin-left: 30px;
+}
