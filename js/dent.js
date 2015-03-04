@@ -38,4 +38,8 @@ $(function() {
         ga('send', 'pageview', href);
     });
     
+     $(window).on('unload', function() {  
+        ga('send', 'event', 'window', 'unload');
+    });
+    
 });
