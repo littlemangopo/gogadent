@@ -6,7 +6,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    {% if page.description %}
+    <meta name="description" content="IQDent Cabinet Stomatolgic. {{page.description}}" />
+    {% else %}
     <meta name="description" content="IQDent Cabinet Stomatolgic - Tratamente inteligente. Ne gasiti in zona Nerva Traian - Octavian Goga, Bucuresti. Oferta implant dentar 250 euro." />
+    {% endif %}
+
     <meta name="keywords" content="cabinet stomatologic, dentist, implant, zirconiu, nerva traian, unirii, octavian goga, sector 3, bucuresti" />
 <meta name="robots" content="INDEX,FOLLOW" />
 <meta property="fb:admins" content="100007375457037" />
@@ -18,6 +24,7 @@
     {% else %}
         <title>{{site.name}} - Cabinet Stomatologic</title>
     {% endif %}
+    
     <!-- Custom CSS -->
     <link href="css/main.css" rel="stylesheet">
 
