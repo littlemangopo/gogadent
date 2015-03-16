@@ -12,3 +12,12 @@ table#pricesTable del {
     color: red;
     margin-left: 30px;
 }
+
+.primarylink a,
+.primarylink a:hover,
+.primarylink a:focus,
+.primarylink a:active,
+.primarylink a.active {
+    outline: 0;
+    color: #{{site.color.primary}};
+}
