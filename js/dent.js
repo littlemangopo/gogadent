@@ -4,7 +4,7 @@ $(function() {
         var mapCanvas = document.getElementById('map-canvas');
         var mapOptions = {
           center: myLatlng,
-          zoom: 17,
+          zoom: 16,
           scrollwheel: false,
           draggable : false,
           mapTypeId: google.maps.MapTypeId.ROADMAP
