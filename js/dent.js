@@ -39,7 +39,7 @@ $(function() {
     });
     
      $(window).on('unload', function() {  
-        ga('send', 'event', 'window', 'unload');
+        ga('send', 'pageview', "exit.html");
     });
     
 });
