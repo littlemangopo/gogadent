@@ -4,15 +4,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    {% if page.showLogo %}
+                    {% if page.contact == null %}
                         <img class="img-responsive" src="img/profile.png" alt="">
                     {% endif %}
                     <div class="intro-text">
-                        {% if page.showLogo %}
-                            <span class="name">Cabinet Stomatologic {{site.name}}</span>
-                        {% else %}
-                            <span class="name">Cabinet Stomatologic {{page.subtitle}}</span>
-                        {% endif %}
+                        <span class="name">Cabinet Stomatologic {{page.subtitle}}</span>
+
                         <hr class="star-light">
                         {% if page.contact == 'one' %}
                             <img src="{{site.contact.one.img}}" class="img-responsive img-circle" alt="">
