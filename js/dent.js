@@ -49,7 +49,7 @@ $(function() {
     window.fbAsyncInit = function() {
         FB.init({
               xfbml      : true,
-              version    : 'v2.1'
+              version    : 'v2.3'
             });
         
         //Facebook Comments
