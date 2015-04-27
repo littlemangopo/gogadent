@@ -21,3 +21,7 @@ table#pricesTable del {
     outline: 0;
     color: #{{site.color.primary}};
 }
+
+.primarycolor {
+    color: #{{site.color.primary}};
+}
