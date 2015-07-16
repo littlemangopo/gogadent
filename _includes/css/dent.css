@@ -25,3 +25,11 @@ table#pricesTable del {
 .primarycolor {
     color: #{{site.color.primary}};
 }
+
+section.success a {
+   color : #FFF;
+}
+
+header a {
+    color : #FFF;
+}
