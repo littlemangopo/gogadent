@@ -35,7 +35,26 @@
                             <li>
                                 <a href="irina-mesaje.html">Mesaje</a>
                             </li>
-                        </ul>                        
+                        </ul>
+                {% elsif page.contact == 'two' %}
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="hidden">
+                                <a href="{{page.home}}#page-top"></a>
+                            </li>
+                            
+                            <li class="page-scroll">
+                                <a href="{{page.home}}#page-top">Cabinet</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="{{page.home}}#contact">Contact</a>
+                            </li>
+                            <li>
+                                <a href="bogdan-tarife.html">Tarife</a>
+                            </li>
+                            <li>
+                                <a href="bogdan-oferte.html">Oferte</a>
+                            </li>
+                        </ul>              
                  {% else %}
                     <ul class="nav navbar-nav navbar-right">
                         <li class="hidden">
